@@ -24,5 +24,10 @@ while (true)
             B = Convert.ToDouble(Console.ReadLine());
             break;
 
+        case 6:
+            Console.WriteLine("Выполнить операцию '/':");
+            result = A / B;
+            Console.WriteLine($"{A} / {B} =  {result}");
+            break;
     }
 }
