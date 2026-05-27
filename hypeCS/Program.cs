@@ -18,7 +18,11 @@ while (true)
             Console.WriteLine("Введите значение для A:");
             A = Convert.ToDouble(Console.ReadLine());
             break;
-
+        case 3:
+            Console.WriteLine("Выполнить операцию '+':");
+            result = A + B;
+            Console.WriteLine($"{A} + {B} =  {result}");
+            break;
         case 2:
             Console.WriteLine("Введите значение для B:");
             B = Convert.ToDouble(Console.ReadLine());
@@ -38,6 +42,7 @@ while (true)
             result = A / B;
             Console.WriteLine($"{A} / {B} =  {result}");
             break;
+
 
     }
 }
