@@ -14,7 +14,11 @@ while (true)
 
     switch (choose)
     {
-       
+        case 3:
+            Console.WriteLine("Выполнить операцию '+':");
+            result = A + B;
+            Console.WriteLine($"{A} + {B} =  {result}");
+            break;
 
     }
 }
