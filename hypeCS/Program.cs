@@ -14,7 +14,15 @@ while (true)
 
     switch (choose)
     {
-       
+        case 1:
+            Console.WriteLine("Введите значение для A:");
+            A = Convert.ToDouble(Console.ReadLine());
+            break;
+
+        case 2:
+            Console.WriteLine("Введите значение для B:");
+            B = Convert.ToDouble(Console.ReadLine());
+            break;
 
     }
 }
