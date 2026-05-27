@@ -23,12 +23,16 @@ while (true)
             Console.WriteLine("Введите значение для B:");
             B = Convert.ToDouble(Console.ReadLine());
             break;
-
         case 4:
             Console.WriteLine("Выполнить операцию '-':");
             result = A - B;
             Console.WriteLine($"{A} - {B} =  {result}");
             break;
 
+        case 6:
+            Console.WriteLine("Выполнить операцию '/':");
+            result = A / B;
+            Console.WriteLine($"{A} / {B} =  {result}");
+            break;
     }
 }
