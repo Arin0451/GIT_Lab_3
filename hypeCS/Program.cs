@@ -14,7 +14,11 @@ while (true)
 
     switch (choose)
     {
-       
+        case 4:
+            Console.WriteLine("Выполнить операцию '-':");
+            result = A - B;
+            Console.WriteLine($"{A} - {B} =  {result}");
+            break;
 
     }
 }
