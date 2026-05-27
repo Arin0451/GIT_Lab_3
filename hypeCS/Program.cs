@@ -14,7 +14,10 @@ while (true)
 
     switch (choose)
     {
-       
-
+        case 5:
+            Console.WriteLine("Выполнить операцию '*':");
+            result = A * B;
+            Console.WriteLine($"{A} * {B} =  {result}");
+            break;
     }
 }
